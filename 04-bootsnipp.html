@@ -1,0 +1,144 @@
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Name">Naam</label>  
+  <div class="col-md-4">
+  <input id="Name" name="Name" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Button Drop Down -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="buttondropdown">Leeftijd</label>
+  <div class="col-md-2">
+    <div class="input-group">
+      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="Leeftijd" type="text" required="">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">- 18</a></li>
+          <li><a href="#">18 - 25</a></li>
+          <li><a href="#">26 - 34</a></li>
+          <li><a href="#">35 - 44</a></li>
+          <li><a href="#">45 - 54</a></li>
+          <li><a href="#">55 - 64</a></li>
+          <li><a href="#">65 - 74</a></li>
+          <li><a href="#">75 - 84</a></li>
+          <li><a href="#">85 +</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes">Geslacht</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+      Man
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+      Vrouw
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Wat was je doel van het bezoek?</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Informatie zoeken</option>
+      <option value="2">Product bekijken</option>
+      <option value="">Contact opnemen</option>
+      <option value="">Aankoop doen</option>
+      <option value="">Anders</option>
+    </select>
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Hoe tevreden ben je over de website?</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      Zeer Ontevreden
+    </label> 
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      Ontevreden
+    </label> 
+    <label class="radio-inline" for="radios-2">
+      <input type="radio" name="radios" id="radios-2" value="3">
+      Neutraal
+    </label> 
+    <label class="radio-inline" for="radios-3">
+      <input type="radio" name="radios" id="radios-3" value="4">
+      Tevreden
+    </label> 
+    <label class="radio-inline" for="radios-4">
+      <input type="radio" name="radios" id="radios-4" value="">
+      Zeer Tevreden
+    </label>
+  </div>
+</div>
+
+<!-- Button Drop Down -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="buttondropdown">Hoe heb je ons gevonden?</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="" type="text" required="">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">Internet</a></li>
+          <li><a href="#">Tv</a></li>
+          <li><a href="#">Mail</a></li>
+          <li><a href="#">Advertentie</a></li>
+          <li><a href="#">Aangeraden door kennis</a></li>
+          <li><a href="#">Anders</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Further comments:</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="textarea"></textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Verzend</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
